@@ -295,7 +295,7 @@
 			"name": "Variables appelées",
 			"scope": "variable.other",
 			"settings": {
-				"foreground": "#dde4e9"
+				"foreground": "#d0d9df"
 			}
 		},
 		
@@ -305,7 +305,16 @@
 			"name": "Noms des types",
 			"scope": "entity.name.type, support.type",
 			"settings": {
-				"foreground": "#6de4e8"
+				"foreground": "#65d4d7",
+				"fontStyle": "italic"
+			}
+		},
+
+		{
+			"name": "Déclaration des types",
+			"scope": "entity.name.type.interface, entity.name.type.alias",
+			"settings": {
+				"fontStyle": "italic bold"
 			}
 		},
 
@@ -314,7 +323,15 @@
 			"name": "Noms des fonctions",
 			"scope": "entity.name.function",
 			"settings": {
-				"foreground": "#587ac3"
+				"foreground": "#7198ee"
+			}
+		},
+
+		{
+			"name": "Déclaration des fonctions",
+			"scope": "meta.definition.function",
+			"settings": {
+				"fontStyle": "bold"
 			}
 		},
 
