@@ -256,17 +256,18 @@
 		// Global foreground
 		{
 			"name": "source.ts",
-			"scope": "source.ts",
+			"scope": "source.ts, constant.numeric, meta.rule.lexer.antlr",
 			"settings": {
-			  "foreground": "#e4d693"
+			  "foreground": "#EED097"
 			}
 
 		},
 
 		// Keywords
+		// Maybe use "storage"
 		{
 			"name": "import statements",
-			"scope": "keyword.control, storage.type",
+			"scope": "keyword.control, storage.type, support.class.promise, storage.modifier.async, entity.name.tag.wildcard",
 			"settings": {
 			  "foreground": "#eb7eb3"
 			}
@@ -277,14 +278,14 @@
 			"name": "string",
 			"scope": "string, punctuation.definition.string.begin,punctuation.definition.string.end",
 			"settings": {
-			  "foreground": "#e88a7e"
+			  "foreground": "#E9A692" //#e88a7e
 			}
 		},
 		  
 		// Ponctuation, = 
 		{
 			"name": "Ponctuation",
-			"scope": "punctuation, keyword.operator.type.annotation, keyword.operator.assignment, meta.brace.round, meta.brace.square",
+			"scope": "punctuation, keyword.operator.type.annotation, keyword.operator.assignment, meta.brace.round, meta.brace.square, meta.rule.parser.antlr",
 			"settings": {
 				"foreground": "#3f4e5d"
 			}
@@ -293,19 +294,29 @@
 		// Nom des variables appelées
 		{
 			"name": "Variables appelées",
-			"scope": "variable.other",
+			"scope": "variable.other, variable.other.object.tsx, storage.type.function.antlr, constant.other.antlr",
 			"settings": {
 				"foreground": "#d0d9df"
 			}
 		},
+		/*
+		{
+			"name": "Propriétés des variables",
+			"scope": "variable.other.property.ts, variable.other.object.property.ts, variable.other.property.tsx",
+			"settings": {
+				"foreground": "#EED097" // #d0d9df
+			}
+		},
+		*/
+		
 		
 
 		// Noms des types
 		{
 			"name": "Noms des types",
-			"scope": "entity.name.type, support.type",
+			"scope": "entity.name.type, support.type, keyword.other.unit",
 			"settings": {
-				"foreground": "#65d4d7",
+				"foreground": "#6DDED5",
 				"fontStyle": "italic"
 			}
 		},
@@ -321,7 +332,7 @@
 		// Fonctions
 		{
 			"name": "Noms des fonctions",
-			"scope": "entity.name.function",
+			"scope": "entity.name.function, variable.scss, entity.name.rule.antlr",
 			"settings": {
 				"foreground": "#7198ee"
 			}
@@ -329,7 +340,7 @@
 
 		{
 			"name": "Déclaration des fonctions",
-			"scope": "meta.definition.function",
+			"scope": "meta.definition.function, entity.name.rule.antlr, storage.type.var.antlr",
 			"settings": {
 				"fontStyle": "bold"
 			}
@@ -338,9 +349,10 @@
 		// Propriétés des objets et paramètres des fonctions
 		{
 			"name": "Noms des propriétés des objets",
-			"scope": "variable.object.property, meta.object-literal.key, variable.parameter",
+			"scope": "variable.object.property, meta.object-literal.key, variable.parameter, entity.other.attribute-name.tsx, entity.other.attribute-name.html, support.type.property-name.css",
 			"settings": {
-				"foreground": "#8a9fb4"
+				"foreground": "#8a9fb4",
+				"fontStyle": ""
 			}
 		},
 
@@ -349,7 +361,7 @@
 			"name": "operator logical",
 			"scope": "keyword.operator, punctuation.accessor.optional",
 			"settings": {
-				"foreground": "#99e09ed9"
+				"foreground": "#99e09e"
 			}
 		},
 
@@ -364,6 +376,23 @@
 			}
 		},
 
+
+		// TSX
+		{
+			"name": "Nom des composants",
+			"scope": "support.class.component.tsx, entity.other.attribute-name.id.css, entity.other.attribute-name.class.css, storage.type.var.antlr",
+			"settings": {
+				"foreground": "#C792E9",
+			}
+		},
+
+		{
+			"name": "Nom des tags HTML par défaut",
+			"scope": "entity.name.tag.html, entity.name.tag.tsx, entity.name.tag.css",
+			"settings": {
+				"foreground": "#A092E9",
+			}
+		},
 
 		
 
