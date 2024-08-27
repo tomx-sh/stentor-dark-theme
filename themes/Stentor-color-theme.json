@@ -267,7 +267,7 @@
 		// Maybe use "storage"
 		{
 			"name": "import statements",
-			"scope": "keyword.control, storage.type, support.class.promise, storage.modifier.async, entity.name.tag.wildcard",
+			"scope": "keyword.control, storage.type, storage.modifier.ts, support.class.promise, storage.modifier.async, entity.name.tag.wildcard",
 			"settings": {
 			  "foreground": "#eb7eb3"
 			}
@@ -314,7 +314,7 @@
 		// Noms des types
 		{
 			"name": "Noms des types",
-			"scope": "entity.name.type, support.type, keyword.other.unit",
+			"scope": "entity.name.type, entity.other.inherited-class.ts, support.type, keyword.other.unit",
 			"settings": {
 				"foreground": "#6DDED5",
 				"fontStyle": "italic"
