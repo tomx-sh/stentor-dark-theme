@@ -3,7 +3,7 @@
 	"colors": {
 		"foreground": "#CECECE",
 		"focusBorder": "#007fd4",
-		"selection.background": "#256aa7",
+		"selection.background": "#e0e4e8",
 		"scrollbar.shadow": "#000000",
 		"activityBar.foreground": "#ffffff",
 		"activityBar.background": "#000000",
@@ -70,11 +70,11 @@
 		"editor.background": "#17181d",
 		"editor.foreground": "#d4d4d4", //#d4d4d4
 		"editorLineNumber.foreground": "#1d1e24",
-		"editorCursor.foreground": "#aeafad",
+		"editorCursor.foreground": "#ffffff",
 		"editorCursor.background": "#000000",
-		"editor.selectionBackground": "#264f78",
-		"editor.inactiveSelectionBackground": "#3a3d41",
-		"editorWhitespace.foreground": "#e3e4e229",
+		"editor.selectionBackground": "#ffffff28",
+		"editor.inactiveSelectionBackground": "#ffffff15",
+		"editorWhitespace.foreground": "#424a59",
 		"editor.selectionHighlightBackground": "#add6ff26",
 		"editor.selectionHighlightBorder": "#495F77",
 		"editor.findMatchBackground": "#515c6a",
@@ -287,7 +287,7 @@
 			"name": "Ponctuation",
 			"scope": "punctuation, keyword.operator.type.annotation, keyword.operator.assignment, meta.brace.round, meta.brace.square, meta.rule.parser.antlr",
 			"settings": {
-				"foreground": "#3f4e5d"
+				"foreground": "#424a59"
 			}
 		},
 
@@ -371,7 +371,7 @@
 			"name": "Comments",
 			"scope": "comment, punctuation.definition.comment",
 			"settings": {
-				"foreground": "#414b55",
+				"foreground": "#49545f",
 				"fontStyle": "italic"
 			}
 		},
