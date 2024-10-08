@@ -267,7 +267,7 @@
 		// Maybe use "storage"
 		{
 			"name": "import statements",
-			"scope": "keyword.control, storage.type, storage.modifier.ts, support.class.promise, storage.modifier.async, entity.name.tag.wildcard",
+			"scope": "keyword, keyword.control, storage.modifier.ts, support.class.promise, storage.modifier.async, entity.name.tag.wildcard",
 			"settings": {
 			  "foreground": "#eb7eb3"
 			}
@@ -314,7 +314,7 @@
 		// Noms des types
 		{
 			"name": "Noms des types",
-			"scope": "entity.name.type, entity.other.inherited-class.ts, support.type, keyword.other.unit",
+			"scope": "entity.name.type, entity.other.inherited-class.ts, support.type, keyword.other.unit, storage.type",
 			"settings": {
 				"foreground": "#6DDED5",
 				"fontStyle": "italic"
@@ -323,7 +323,7 @@
 
 		{
 			"name": "Déclaration des types",
-			"scope": "entity.name.type.interface, entity.name.type.alias",
+			"scope": "entity.name.type",
 			"settings": {
 				"fontStyle": "italic bold"
 			}
@@ -349,7 +349,7 @@
 		// Propriétés des objets et paramètres des fonctions
 		{
 			"name": "Noms des propriétés des objets",
-			"scope": "variable.object.property, meta.object-literal.key, variable.parameter, entity.other.attribute-name.tsx, entity.other.attribute-name.html, support.type.property-name.css",
+			"scope": "variable.object.property, meta.object-literal.key, variable.parameter, entity.other.attribute-name.tsx, entity.other.attribute-name.html, support.type.property-name.css, variable.other.property.go",
 			"settings": {
 				"foreground": "#8a9fb4",
 				"fontStyle": ""
