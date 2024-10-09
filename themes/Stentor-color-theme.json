@@ -267,7 +267,7 @@
 		// Maybe use "storage"
 		{
 			"name": "import statements",
-			"scope": "keyword, keyword.control, storage.modifier.ts, support.class.promise, storage.modifier.async, entity.name.tag.wildcard",
+			"scope": "keyword, keyword.control, storage.modifier.ts, support.class.promise, storage.modifier.async, entity.name.tag.wildcard, storage.type.ts",
 			"settings": {
 			  "foreground": "#eb7eb3"
 			}
