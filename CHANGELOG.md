@@ -13,3 +13,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ### Changed
 
 - `extends` keyword and the following type are now correctly highlighted for TypeScript.
+
+
+## [1.0.2] - 2024-12-30
+
+### Changed
+Fixed gutter color for GitHub Pull Request comments.
