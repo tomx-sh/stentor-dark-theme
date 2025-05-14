@@ -274,7 +274,7 @@
 		// Maybe use "storage"
 		{
 			"name": "import statements",
-			"scope": "keyword, keyword.control, storage.modifier.ts, support.class.promise, storage.modifier.async, entity.name.tag.wildcard, storage.type",
+			"scope": "keyword, keyword.control, storage.modifier.ts, support.class.promise, storage.modifier.async, entity.name.tag.wildcard, storage.type, storage.modifier.sql",
 			"settings": {
 			  "foreground": "#eb7eb3"
 			}
@@ -321,7 +321,7 @@
 		// Noms des types
 		{
 			"name": "Noms des types",
-			"scope": "entity.name.type, entity.other.inherited-class.ts, support.type, keyword.other.unit",
+			"scope": "entity.name.type, entity.other.inherited-class.ts, support.type, keyword.other.unit, storage.type.sql",
 			"settings": {
 				"foreground": "#6DDED5",
 				"fontStyle": "italic"
@@ -395,7 +395,7 @@
 		// TSX
 		{
 			"name": "Nom des composants",
-			"scope": "support.class.component.tsx, entity.other.attribute-name.id.css, entity.other.attribute-name.class.css, storage.type.var.antlr",
+			"scope": "support.class.component.tsx, entity.other.attribute-name.id.css, entity.other.attribute-name.class.css, storage.type.var.antlr, constant.other.table-name.sql",
 			"settings": {
 				"foreground": "#C792E9",
 			}
@@ -403,7 +403,7 @@
 
 		{
 			"name": "Nom des tags HTML par défaut",
-			"scope": "entity.name.tag.html, entity.name.tag.tsx, entity.name.tag.css, meta.attribute.rust",
+			"scope": "entity.name.tag.html, entity.name.tag.tsx, entity.name.tag.css, meta.attribute.rust, constant.other.database-name.sql",
 			"settings": {
 				"foreground": "#A092E9",
 			}
