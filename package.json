@@ -24,7 +24,7 @@
       {
         "label": "Stentor",
         "uiTheme": "vs-dark",
-        "path": "./themes/Stentor-color-theme.json"
+        "path": "./themes/stentor-ui.json"
       }
     ]
   }
