@@ -1,0 +1,26 @@
+/* Command palette blur (Quick Input) */
+.monaco-workbench .quick-input-widget {
+  background-color: color-mix(in srgb, var(--vscode-quickInput-background) 3000%, transparent) !important;
+  backdrop-filter: blur(40px) saturate(180%);
+  -webkit-backdrop-filter: blur(40px) saturate(180%);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.monaco-workbench.vs-dark .quick-input-widget {
+  border: 1px solid var(--vscode-menu-border) !important;
+}
+
+.monaco-workbench .quick-input-widget .monaco-list-rows {
+  background-color: transparent !important;
+}
+
+.monaco-workbench .quick-input-widget .monaco-inputbox {
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+.monaco-workbench .quick-input-widget .quick-input-filter .monaco-inputbox {
+  background: color-mix(in srgb, var(--vscode-input-background) 60%, transparent) !important;
+  border-radius: 6px;
+}

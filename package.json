@@ -26,6 +26,11 @@
         "uiTheme": "vs-dark",
         "path": "./themes/stentor-ui.json"
       }
+    ],
+    "css": [
+      {
+        "path": "./css/blur.css"
+      }
     ]
   }
 }
