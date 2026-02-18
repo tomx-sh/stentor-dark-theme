@@ -19,6 +19,9 @@
   "categories": [
     "Themes"
   ],
+  "enabledApiProposals": [
+    "css"
+  ],
   "contributes": {
     "themes": [
       {
