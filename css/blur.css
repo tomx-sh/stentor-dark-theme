@@ -1,6 +1,12 @@
 /* Command palette blur (Quick Input) */
+/* Remove workbench editor depth shadows cast from side/bottom/right panels */
+.monaco-workbench.vs .part.editor::after,
+.monaco-workbench.vs-dark .part.editor::after {
+  box-shadow: none !important;
+}
+
 .monaco-workbench .quick-input-widget {
-  background-color: color-mix(in srgb, var(--vscode-quickInput-background) 3000%, transparent) !important;
+  background-color: color-mix(in srgb, var(--vscode-quickInput-background) 30%, transparent) !important;
   backdrop-filter: blur(40px) saturate(180%);
   -webkit-backdrop-filter: blur(40px) saturate(180%);
   border-radius: 12px;
@@ -9,6 +15,15 @@
 
 .monaco-workbench.vs-dark .quick-input-widget {
   border: 1px solid var(--vscode-menu-border) !important;
+}
+
+.monaco-workbench.vs .quick-input-widget {
+  border: 1px solid var(--vscode-menu-border) !important;
+}
+
+/* Light theme: divider between gutter and editor content */
+.monaco-workbench.vs .monaco-editor .margin {
+  box-shadow: inset -1px 0 0 var(--vscode-editorGroup-border) !important;
 }
 
 .monaco-workbench .quick-input-widget .monaco-list-rows {

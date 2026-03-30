@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Stentor UI",
+  "name": "Stentor UI Dark",
   "type": "dark",
   "colors": {
     "foreground": "#dbdee3ff",
@@ -216,6 +216,7 @@
     "tab.inactiveBackground": "#000000ff",
     "editorGroupHeader.tabsBackground": "#000000ff",
     "editorGroupHeader.tabsBorder": "#202225ff",
+    "editorGroupHeader.border": "#202225ff",
     "editorGroupHeader.tabsForeground": "#dbdee3ff",
     "tab.inactiveForeground": "#7e8085ff",
     "tab.activeBorder": "#d0d9dfff",
@@ -226,7 +227,7 @@
     "scrollbarSlider.activeBackground": "#7b8089f5",
     "badge.background": "#d0d9dfff",
     "badge.foreground": "#000000ff",
-    "widget.shadow": "#00000080"
+    "widget.shadow": "#00000000"
   },
   "tokenColors": [
     {

@@ -25,9 +25,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Stentor",
+        "label": "Stentor Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/stentor-ui.json"
+        "path": "./themes/stentor-ui-dark.json"
+      },
+      {
+        "label": "Stentor Light",
+        "uiTheme": "vs",
+        "path": "./themes/stentor-ui-light.json"
       }
     ],
     "css": [
