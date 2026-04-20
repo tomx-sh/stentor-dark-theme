@@ -33,6 +33,11 @@
         "label": "Stentor Light",
         "uiTheme": "vs",
         "path": "./themes/stentor-ui-light.json"
+      },
+      {
+        "label": "Stentor e-ink Light",
+        "uiTheme": "vs",
+        "path": "./themes/stentor-eink-light.json"
       }
     ],
     "css": [
